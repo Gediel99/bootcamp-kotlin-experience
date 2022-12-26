@@ -14,9 +14,20 @@ Status do projeto: Em andamento.
 
 ## Lista dos assuntos abordados nesse projeto
 
-- Introdução Prática à Linguagem de Programação Kotlin
-    - Funções
-    - Funções Varags
-    - Null Safety Nutilidade
-    - Classes
-    - Classes e funções Genéricas
+- Introdução Prática à Linguagem de Programação Kotlin:
+  - Funções
+  - Funções Varags
+  - Null Safety Nutilidade
+  - Classes
+  - Classes e funções genéricas
+- Estrturas de Controlede Fluxo e Coleções em Kotlin:
+  - When Statement
+  - When Expression
+  - Loops: For
+  - Loops: While e do while
+  - Loops: Iterators
+  - Ranges: Loops com int
+  - Ranges: Ifs e loops com Char
+  - Verificações de Igualdade ==e===
+  - Expressão Condicional
+
