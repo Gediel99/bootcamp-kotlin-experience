@@ -6,9 +6,7 @@ Esse repositório armazena o conteúdo referente ao Bootcamp de Kotlin disponibi
 Os códigos estão comentados com as minhas observações.
 
 ##
-
 Status do projeto: Em andamento.
-
 ##
 
 ## Lista dos assuntos abordados nesse projeto
