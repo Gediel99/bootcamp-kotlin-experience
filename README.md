@@ -11,8 +11,10 @@ Status do projeto: Em andamento.
 
 ## Lista dos assuntos abordados nesse projeto
 
-Parte introdutória: 
-- Funções
-- Funções Varags
-- Null Safety Nutilidade
-- Classes
+- Parte introdutória: 
+    - Funções
+    - Funções Varags
+    - Null Safety Nutilidade
+    - Classes
+    - Classes Genéricas
+    - Funções Genéricas
