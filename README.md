@@ -20,7 +20,7 @@ Status do projeto: Em andamento.
   - Null Safety Nutilidade
   - Classes
   - Classes e funções genéricas
-- Estrturas de Controlede Fluxo e Coleções em Kotlin:
+- Estrturas de Controle de Fluxo e Coleções em Kotlin:
   - When Statement
   - When Expression
   - Loops: For
