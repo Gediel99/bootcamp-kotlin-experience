@@ -11,7 +11,7 @@ Status do projeto: Em andamento.
 
 ## Lista dos assuntos abordados nesse projeto
 
-- Parte introdutória: 
+- Introdução Prática à Linguagem de Programação Kotlin
     - Funções
     - Funções Varags
     - Null Safety Nutilidade

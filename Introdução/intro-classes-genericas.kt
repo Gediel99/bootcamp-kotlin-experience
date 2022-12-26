@@ -1,3 +1,5 @@
+package Introdução
+
 class PilhaMutavel<E>(vararg items: E){                                  //1. Declarou uma classe genérica através do "<E>", que recebe uma lista de "E" como parâmetro.
     private val elementos = items.toMutableList()                        //2. Declara uma váriavel privada "Elementos" que recebe os elementos "E" e converte para uma lista mutável.
     fun push(element: E) = elementos.add(element)                        //3. Adiciona um elemento na variável elementos.
@@ -5,7 +7,7 @@ class PilhaMutavel<E>(vararg items: E){                                  //1. De
     fun pop(): E = elementos.removeAt(elementos.size - 1)          //5. Pega o útimo elemento da lista "elementos" e o remove.
     fun isEmpty() = elementos.isEmpty()                                  //6. Verifica se a lista "Elementos" está vazia.
     fun size() = elementos.size                                          //7. Calcula o tamanho da lista Elementos.
-    override fun toString() = "PilhaMutavel(${elementos.joinToString()})"//8. Método para converter a pilha para texto para ser fácil de enxergar no console.
+    override fun toString() = "Introdução.PilhaMutavel(${elementos.joinToString()})"//8. Método para converter a pilha para texto para ser fácil de enxergar no console.
 }
 
 fun main(){
@@ -34,7 +36,7 @@ fun main(){
         println("pop(): ${pilha1.pop()}")
         println(pilha1)
     }
-    val pilha2=PilhaMutavel(1)
+    val pilha2= PilhaMutavel(1)
 
     println("-------Textando a função isEmpty() e size()--------")
     println("pilha1:")

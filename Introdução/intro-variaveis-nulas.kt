@@ -1,3 +1,5 @@
+package Introdução
+
 fun main () {
     var neverNull: String = "Aqui nao pode ser nulo"        //1. Quando criamos uma variável assim, significa que não pode nulo.
     //neverNull = null                                      //2. Dará um erro "non-null type String"

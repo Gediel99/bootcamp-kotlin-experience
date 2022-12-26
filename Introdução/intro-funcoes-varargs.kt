@@ -1,3 +1,5 @@
+package Introdução
+
 fun main () {
     fun imprimir (vararg mensagens: String) {               //inicia o parâmetro da função com o vararg, sendo assim poderá inserir vários valores.
         for (m in mensagens) println(m );
