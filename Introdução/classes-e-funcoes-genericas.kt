@@ -1,4 +1,3 @@
-package Introdução
 
 class PilhaMutavel<E>(vararg items: E){                                  //1. Declarou uma classe genérica através do "<E>", que recebe uma lista de "E" como parâmetro.
     private val elementos = items.toMutableList()                        //2. Declara uma váriavel privada "Elementos" que recebe os elementos "E" e converte para uma lista mutável.
@@ -9,6 +8,7 @@ class PilhaMutavel<E>(vararg items: E){                                  //1. De
     fun size() = elementos.size                                          //7. Calcula o tamanho da lista Elementos.
     override fun toString() = "Introdução.PilhaMutavel(${elementos.joinToString()})"//8. Método para converter a pilha para texto para ser fácil de enxergar no console.
 }
+fun <E> mutableStackOf(vararg elements: E) = PilhaMutavel(*elements)
 
 fun main(){
     println("-------Exemplo da funções push(), peek() e pop() com números reais--------")
@@ -51,4 +51,7 @@ fun main(){
     } else {
         println("size(): ${pilha2.size()}")
     }
+    println("Testando a função genérica")
+    val pilha3 = mutableStackOf(0.62, 3.14, 2.7)
+    println(pilha3)
 }
