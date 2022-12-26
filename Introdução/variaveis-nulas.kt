@@ -19,7 +19,7 @@ fun main () {
     }
     fun describeString(maybeString: String?): String {
         if(maybeString != null && maybeString.length > 0) {
-            return "Tamanho da String $[maybeString.length}"
+            return "Tamanho da String: ${maybeString.length}"
         } else {
             return "Empty or null string"
         }
