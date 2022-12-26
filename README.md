@@ -16,5 +16,4 @@ Status do projeto: Em andamento.
     - Funções Varags
     - Null Safety Nutilidade
     - Classes
-    - Classes Genéricas
-    - Funções Genéricas
+    - Classes e funções Genéricas
