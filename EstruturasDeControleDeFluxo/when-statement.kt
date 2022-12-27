@@ -1,5 +1,6 @@
 /*
-    O When pode ser usado no lugar de estruturas de switch, são mais limpas e flexíveis. Elas podem ser usadas como uma declaração ou como uma expressão.
+    O When pode ser usado no lugar de estruturas de switch, são mais limpas e flexíveis.
+    Elas podem ser usadas como uma declaração ou como uma expressão.
 */
 fun main(){
     cases("Hello")
